@@ -11,3 +11,4 @@
 
 ### Additional Resources
 - [History of OpenGL](openglbook.com/chapter-0-preface-what-is-opengl.html)
+- [Online Editor](http://editor.thebookofshaders.com)
