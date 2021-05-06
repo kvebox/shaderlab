@@ -27,5 +27,15 @@ green.rgb = yellow.bgb; // Assign the blue channel of Yellow (0) to red and blue
 ## Mixing Color
 * GLSL function `mix()` returns a percentage range between 0.0 and 1.0 from two values in percentages
 
+## HSB
+* different ways of organizing color
+    - rgb (red, green, blue)
+    - hsb (hue, saturation, brightness/value)
+* translate between the two using the following functions
+    - rgb2hsv()
+    - hsv2rgb()
+* HSB was original designed to be represented in polar coordinates (based on the angle and radius) vs cartesian coordinates (x and y)
+    - to map HSB function to polar coordinates, use the angle and distance from the center of the billboard to the pixel coordinate using  `length()` and `atan(y,x)`
+
 ## Additional Resources
 [Easing Functions](https://easings.net)
